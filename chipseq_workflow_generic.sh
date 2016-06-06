@@ -222,5 +222,7 @@ plotCorrelation --corData inputs.npz --plotFile correlation_plot_heat_inputs.pdf
 plotCorrelation --corData inputs.npz --plotFile correlation_plot_scatter.pdf --corMethod spearman --whatToPlot scatterplot --labels S1 S2 S3 --outFileCorMatrix correlation_matrix_scatter.txt --colorMap Reds --plotNumbers --skipZeros --removeOutliers
 
 plotPCA --corData inputs.npz --plotFile correlation_plot_PCA.pdf --labels S1 S2 S3 --outFileNameData PCA_data.txt
+#==========================================
+#(Ctrl+D)
 
-
+sbatch deepTC
